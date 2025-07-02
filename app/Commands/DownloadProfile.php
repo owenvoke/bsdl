@@ -11,7 +11,7 @@ class DownloadProfile extends Command
     /** @var string */
     protected $signature = 'download:profile {username}';
 
-    public function handle()
+    public function handle(): void
     {
         $username = $this->argument('username');
 
